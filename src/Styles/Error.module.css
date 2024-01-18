@@ -1,0 +1,41 @@
+.container {
+  height: 500px;
+  width: 50%;
+  margin: 50px auto;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > img {
+  height: 300px;
+}
+
+.btn {
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #224957;
+  outline: 2px solid #224957;
+  font-size: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn > a {
+  text-decoration: none;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn:hover a {
+  color: #224957;
+}

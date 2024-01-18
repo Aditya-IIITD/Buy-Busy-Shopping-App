@@ -1,0 +1,72 @@
+.ordersContainer {
+  min-height: 100px;
+  width: 50%;
+  /* border: 0.5px solid black; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.orderDate {
+  height: 45px;
+  box-sizing: border-box;
+  font-size: 17px;
+  padding: 7px;
+  margin-bottom: 0;
+  color: #224957;
+}
+.order {
+  margin-bottom: 50px;
+  transition: 0.1s ease;
+}
+
+.table {
+  width: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: 0.09s ease-in-out;
+}
+
+.order:hover {
+  outline: 3px solid #4f42c3;
+  border-radius: 10px;
+  transform: scale(1.01);
+}
+
+.table tr {
+  height: 40px;
+}
+
+.table td {
+  /* border: 1px solid black; */
+  background-color: #b0a9f0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.table th {
+  font-size: 14px;
+  box-shadow: -1px -1px 5px -3px black;
+}
+
+.lastRow {
+  text-align: right;
+}
+
+.lastRow > td {
+  padding-right: 25px;
+  font-weight: 600;
+}
+
+.emptyOrder {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.emptyOrder > p {
+  color: gray;
+  transform: translateY(-10px);
+  font-weight: 450;
+}

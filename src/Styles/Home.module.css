@@ -1,0 +1,79 @@
+.homePage {
+  width: 70%;
+  min-height: 100px;
+  /* background-color: gray; */
+  margin: 0 250px;
+  text-align: center;
+}
+
+.input {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 10px;
+  margin: 20px 0;
+  outline: none;
+  border: 1px solid #6e62e1;
+  background-color: #f4f6f8;
+}
+
+.input:focus {
+  outline: 2px solid #6e62e1;
+}
+
+.cardsContainer {
+  box-sizing: border-box;
+  margin-top: 35px;
+  padding: 10px 14px;
+  min-height: 100px;
+  width: 100%;
+  /* background-color: #f4f6f8; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.spinnerDiv {
+  width: 100px;
+  margin: 200px auto;
+}
+
+.emptyCart {
+  /* background-color: gray; */
+  margin: 100px auto;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  height: 40px;
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  background-color: #f14444;
+  outline: 1.5px solid red;
+  font-size: 18px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: red;
+}
+
+.button > a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.button:hover a {
+  color: red;
+}

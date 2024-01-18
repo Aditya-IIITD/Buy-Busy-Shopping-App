@@ -1,0 +1,38 @@
+.priceContainer {
+  height: 160px;
+  min-width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  top: 250px;
+  left: 0;
+  border-radius: 0 10px 10px 0;
+  color: #224957;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.priceContainer > h3 {
+  width: 100%;
+}
+
+.btn {
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #6e62e1;
+  border: none;
+  outline: 2px solid #6e62e1;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #6e62e1;
+}
