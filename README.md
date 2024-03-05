@@ -1,5 +1,6 @@
 # Buy-Busy-Shopping-App
 Website: https://buy-busy-shop-by-aditya.netlify.app/
+<br/>
 Developed Buy-Busy, a online shopping platform utilizing React, CSS, Firebase Cloud Firestore, and Authentication. Engineered an intuitive UI, robust cart management, secure authentication, comprehensive order history, and backend integration, ensuring a seamless and secure shopping experience.
 
 ![Untitled design](https://github.com/Aditya-IIITD/Buy-Busy-Shopping-App/assets/58390543/8353c8de-9ff0-47ac-a1fc-df9f6add63da)
